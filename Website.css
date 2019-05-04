@@ -1,3 +1,29 @@
 body {
 
 }
+
+li {
+	float: left;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+a:link,a:visited {
+	display:block;
+	color: #FFFFFF;
+	background-color: #65AFFF;
+	width: 250px;
+	text-align: center;
+	padding: 10px;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+a:hover,a:active {
+	background-color: #5899E2;
+}
