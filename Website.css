@@ -1,29 +1,150 @@
 body {
+	background-color: #FE938C;
+}
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #333333;
+   color: white;
+   text-align: center;
+   text-transform: uppercase;
+}
+
+table {
+	background-color: #BAC1B8;
+	text-transform: capitalize;
+  font-weight: bold;
+	width: 100%;
+}
+
+table, th, td {
+	border: 3px white;
+	border-bottom-style: solid;
+	border-collapse: collapse;
+}
+
+.info {
+ text-transform: capitalize;
+ font-weight: none;
+}
+
+.fieldsett{
+	background-color: #BAC1B8;
+	text-transform: uppercase;
+    font-weight: bold;
+	width: 40%;
+}
+
+.fieldsettt{
+		background-color: #BAC1B8;
+	text-transform: uppercase;
+    font-weight: none;
 
 }
 
-li {
+.contacth1{
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 30px;
+	
+}
+
+.overonsh1 {
+	color: white;
+	font-size: 25px;
+	letter-spacing: 0.5px;
+	text-transform: uppercase;
+}
+
+.padding {
+	padding: 10px;
 	float: left;
 }
 
-ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
+button {
+	padding: 3px;
+	background-color: #FE938C 
 }
+
+.contactimg {
+	width: 50px;
+	height: 50px;
+}
+
+.lit {
+  float: left;
+}
+
+.litt {
+	float: left;
+	padding: 5px;
+	margin; 5px;
+}
+
+
+
+.nav input[type=text] {
+  float: center;
+  padding: 10px;
+  border: none;
+  margin-top: 20px;
+  margin-right: 10px;
+  font-size: 15px;
+  border-color: #FE938C;
+  border-width: 3px;
+  border-style: solid;
+}
+
+.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+
 
 a:link,a:visited {
 	display:block;
 	color: #FFFFFF;
-	background-color: #65AFFF;
-	width: 250px;
+	background-color: #333333;
 	text-align: center;
-	padding: 10px;
+	padding: 16px;
 	text-transform: uppercase;
 	text-decoration: none;
 }
 
 a:hover,a:active {
-	background-color: #5899E2;
+	background-color: #BAC1B8;
+	color: black;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+
+.legend {
+	width:96%;
+	margin-bottom:2%;
+	padding-left:2%;
+	padding-right:5px;
+	background-color:#666666;
+	font-size:10px;
+	color:#FFFFFF;
+}
+.label {
+    display:block;
+    width:50%;
+    margin-top:5px;
+    float:left;
+}
+
+.input {
+    width:40%;
+	margin-top:5px;
+	float:left;
 }
