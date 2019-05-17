@@ -3,7 +3,6 @@ body {
 }
 
 .footer {
-   position: fixed;
    left: 0;
    bottom: 0;
    width: 100%;
@@ -13,17 +12,10 @@ body {
    text-transform: uppercase;
 }
 
-table {
+.table {
 	background-color: #BAC1B8;
-	text-transform: capitalize;
-  font-weight: bold;
 	width: 100%;
-}
-
-table, th, td {
-	border: 3px white;
-	border-bottom-style: solid;
-	border-collapse: collapse;
+	text-transform: none;
 }
 
 .info {
@@ -31,28 +23,33 @@ table, th, td {
  font-weight: none;
 }
 
-.fieldsett{
+.fieldsett {
 	background-color: #BAC1B8;
 	text-transform: uppercase;
     font-weight: bold;
 	width: 40%;
 }
 
-.fieldsettt{
-		background-color: #BAC1B8;
+.contentfieldset {
+	background-color: #BAC1B8;
 	text-transform: uppercase;
     font-weight: none;
-
 }
 
-.contacth1{
+.contentfieldsett {
+	background-color: #BAC1B8;
+	text-transform: none;
+    font-weight: none;
+}
+
+.contacth1 {
 	font-weight: bold;
 	text-transform: uppercase;
 	font-size: 30px;
-	
 }
 
 .overonsh1 {
+	
 	color: white;
 	font-size: 25px;
 	letter-spacing: 0.5px;
@@ -81,10 +78,9 @@ button {
 .litt {
 	float: left;
 	padding: 5px;
-	margin; 5px;
+	margin: 5px;
+	vertical-align: middle;
 }
-
-
 
 .nav input[type=text] {
   float: center;
@@ -106,8 +102,16 @@ button {
   background-color: #333333;
 }
 
+.navv {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+  vertical-align: middle;
+}
 
-a:link,a:visited {
+.a:link,.a:visited {
 	display:block;
 	color: #FFFFFF;
 	background-color: #333333;
@@ -117,7 +121,7 @@ a:link,a:visited {
 	text-decoration: none;
 }
 
-a:hover,a:active {
+.a:hover,.a:active {
 	background-color: #BAC1B8;
 	color: black;
 }
@@ -125,7 +129,6 @@ a:hover,a:active {
 html {
 	scroll-behavior: smooth;
 }
-
 
 .legend {
 	width:96%;
@@ -136,6 +139,7 @@ html {
 	font-size:10px;
 	color:#FFFFFF;
 }
+
 .label {
     display:block;
     width:50%;
@@ -147,4 +151,23 @@ html {
     width:40%;
 	margin-top:5px;
 	float:left;
+}
+
+.homeimg {
+	width: 500px;
+	height: 250px;
+	padding: 25px;
+}
+
+.leesmeer {
+	color: blue;
+}
+
+.paddingg {
+	padding: 10px;
+}
+
+caption { 
+  display: table-caption;
+  text-align: left;
 }
